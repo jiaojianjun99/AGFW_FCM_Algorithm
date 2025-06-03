@@ -14,7 +14,7 @@ max_iter =100;      % Max. iteration
 G=[1,255];
 Offset=[0 1;-1 1;-1 0;-1 -1];
 %%
-I =imread('image\wenli1.png');
+I =imread('wenli1.png');
 %%  Superpixel region
 [m,n,p]=size(I);
 [label,N1] = superpixels(I,N);
